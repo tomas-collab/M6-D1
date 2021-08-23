@@ -1,0 +1,1 @@
+UPDATE public.authors SET birth_year=50 WHERE author_id=2 RETURNING*;
